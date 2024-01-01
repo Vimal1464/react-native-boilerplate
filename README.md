@@ -1,6 +1,4 @@
 # React Native Boilerplate
-[![React Native](https://img.shields.io/badge/React-Native-0.73.1-green.svg)](https://docs.oracle.com/en/java/javase/11/)
-
 
  <img src="./src/assets/img/logo.png" alt="logo" width="250" height="200">
 
