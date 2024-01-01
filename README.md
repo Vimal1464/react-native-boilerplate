@@ -1,79 +1,74 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+Certainly! I've updated the README to include the video and screenshots under the "Prerequisites" section, and removed the "Dependencies" section:
 
-# Getting Started
+```markdown
+# React Native Boilerplate
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<p align="center">
+  <img src="/assets/banner.png" alt="React Native Boilerplate" />
+</p>
 
-## Step 1: Start the Metro Server
+Welcome to the React Native Boilerplate repository! This comprehensive boilerplate empowers you to build React Native applications with speed and efficiency. It incorporates a curated selection of pre-built, customizable components, reducing the groundwork and allowing you to focus on creating exceptional mobile experiences.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Prerequisites
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Before diving in, make sure you have the following software installed:
 
-```bash
-# using npm
-npm start
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- [React Native](https://reactnative.dev/)
 
-# OR using Yarn
-yarn start
+  To get a quick glimpse of what's in store, watch the demo video:
+
+  [![Demo Video](/assets/video_thumbnail.png)](/videos/demo.mp4)
+
+  Here are some screenshots showcasing the React Native Boilerplate:
+
+  <div align="center">
+    <img src="/screenshots/screenshot1.png" alt="Screenshot 1" width="200" />
+    <img src="/screenshots/screenshot2.png" alt="Screenshot 2" width="200" />
+  </div>
+
+## Getting Started
+
+Get up and running with these straightforward steps:
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Vimal1464/react-native-boilerplate.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd react-native-boilerplate
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   npm install
+   ```
+
+4. **Run the application:**
+
+   ```bash
+   npx react-native run-android
+   ```
+
+   or
+
+   ```bash
+   npx react-native run-ios
+   ```
+
+## Contributing
+
+Join us in improving and expanding the boilerplate! Feel free to open issues, suggest enhancements, or submit pull requests. Let's collaborate to make this tool even more powerful.
+
+## License
+
+This project is licensed under the [MIT License](/LICENSE).
 ```
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+In this version, the video thumbnail is displayed with a link to the actual video, and the screenshots are showcased directly under the "Prerequisites" section.
