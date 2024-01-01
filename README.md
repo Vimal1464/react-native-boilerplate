@@ -1,9 +1,6 @@
 # React Native Boilerplate
-[![Java Version](https://img.shields.io/badge/Java-17-green.svg)](https://docs.oracle.com/en/java/javase/11/)
-[![Spring Boot Version](https://img.shields.io/badge/Spring%20Boot-3.2.0-green.svg)](https://spring.io/projects/spring-boot)
-[![Spring Security Version](https://img.shields.io/badge/Spring%20Security-green.svg)](https://spring.io/projects/spring-security)
-[![JWT Version](https://img.shields.io/badge/JWT-0.11.5-green.svg)](https://github.com/jwtk/jjwt)
-[![MySQL Version](https://img.shields.io/badge/MySQL-8.0-blue.svg)](https://www.mysql.com/)
+[![React Native](https://img.shields.io/badge/React-Native-0.73.1-green.svg)](https://docs.oracle.com/en/java/javase/11/)
+
 
  <img src="./src/assets/img/logo.png" alt="logo" width="250" height="200">
 
