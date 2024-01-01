@@ -13,8 +13,8 @@ import {LogBox, SafeAreaView, ScrollView, Text, View} from 'react-native';
 import Header from '../components/Header';
 import appColors from '../constants/colors';
 import DropDown from '../components/DropDown';
-import {NavigationProp, useNavigation} from '@react-navigation/native';
-import Loading from '../components/Loading';
+import {useNavigation} from '@react-navigation/native';
+import {useSharedValue, withTiming} from 'react-native-reanimated';
 const genderArray = [
   {
     id: 1,
@@ -47,23 +47,9 @@ const Demo = () => {
   const navigation = useNavigation<any>();
   const [dropDownValue1, setDropdownValue1] = useState<any>(); // type depend on your dropdown data
   const [dropDownValue2, setDropdownValue2] = useState<any>(); // type depend on your dropdown data
-  const [loading, setLoading] = useState(true);
-  useEffect(() => {
-    const loadTrigger = setTimeout(() => {
-      // setLoading(false)
-    }, 2000);
+  const LoadingAnimationValue = useSharedValue(0);
 
-    return () => {
-      clearTimeout(loadTrigger);
-    };
-  }, []);
-  if (loading) {
-    return (
-      <Loading
-        message='Custom Loader'
-      />
-    );
-  }
+ 
   return (
     <Background>
       <SafeAreaView style={{flex: 1, backgroundColor: 'transparent'}}>

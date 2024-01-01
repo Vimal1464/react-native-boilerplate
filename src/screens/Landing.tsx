@@ -12,49 +12,44 @@ import Background from '../components/Background';
 import fontFamily from '../constants/fontFamily';
 import CustomButton from '../components/CustomButton';
 import {useNavigation} from '@react-navigation/native';
-import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
+import Animated, {
+  useAnimatedStyle,
+  useSharedValue,
+  withTiming,
+} from 'react-native-reanimated';
 
-const AnimatedSafeAreaView  = Animated.createAnimatedComponent(SafeAreaView)
-
-
+const AnimatedSafeAreaView = Animated.createAnimatedComponent(SafeAreaView);
 
 const Landing = () => {
   const navigation = useNavigation<any>();
   const AnimationValue = useSharedValue(-200);
   const opacityValue = useSharedValue(0);
-  const AnimationStyle = useAnimatedStyle(()=>{
-    return{
-      transform:[{translateY:AnimationValue.value}],
-      opacity:opacityValue.value
-    }
-  })
-  useEffect(()=>{
-    AnimationValue.value=withTiming(100,{duration:1500});
-    opacityValue.value=withTiming(1,{duration:1200})
-  })
+  const AnimationStyle = useAnimatedStyle(() => {
+    return {
+      transform: [{translateY: AnimationValue.value}],
+      opacity: opacityValue.value,
+    };
+  });
+  useEffect(() => {
+    AnimationValue.value = withTiming(100, {duration: 1500});
+    opacityValue.value = withTiming(1, {duration: 1200});
+  });
   return (
     <Background>
-      <AnimatedSafeAreaView 
-      
-      
-      style={[{flex: 1},AnimationStyle]}>
+      <AnimatedSafeAreaView style={[{flex: 1}, AnimationStyle]}>
         <Image
           source={require('../assets/img/logo.png')}
-          // resizeMode="contain"
-          style={{
-            alignSelf: 'center',
-            // backgroundColor:"red"
-          }}
+          resizeMode="contain"
+          style={{width: 200, height: 250, alignSelf: 'center'}}
         />
-
         <Text style={LandingStyle.textStyle}>
           Welcome To One React{'\n'}Where You Will Get Free React Native
-          Components{'\n'}.
+          Components{'\n'}Created By Vimal Pandey.
         </Text>
         <TouchableOpacity
           onPress={() => {
             Linking.openURL(
-              'https://github.com/Vimal1464/spring-boot-spring-security-jwt-authentication',
+              'https://github.com/Vimal1464/react-native-boilerplate',
             );
           }}
           style={{
@@ -96,5 +91,6 @@ const LandingStyle = StyleSheet.create({
     color: 'black',
     fontFamily: fontFamily.black,
     fontSize: 17,
+    marginTop:20
   },
 });
