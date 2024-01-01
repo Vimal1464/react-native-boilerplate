@@ -4,7 +4,7 @@
 
 Welcome to the React Native Boilerplate repository! This project serves as a solid foundation for your React Native applications, featuring a variety of pre-built, customizable components to streamline your development process.
 
-## Demo Video
+## Demo
 
 <div align="center">
   <img src="./src/assets/gitAssets/video.gif" alt="video" width="45%">
@@ -21,10 +21,6 @@ Welcome to the React Native Boilerplate repository! This project serves as a sol
   <img src="./src/assets/gitAssets/ss3.png" alt="Image 3" width="45%">
   <img src="./src/assets/gitAssets/ss4.png" alt="Image 4" width="45%">
 </div>
-
-## Demo Video
-
-Watch a brief demo of the React Native Boilerplate [here](./src/assets/gitAssets/video.mov).
 
 ## Features
 
