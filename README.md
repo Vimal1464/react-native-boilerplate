@@ -17,12 +17,15 @@ Watch a brief demo of the React Native Boilerplate [here](./src/assets/gitAssets
 
 ## Screenshots
 
-Explore the React Native Boilerplate through these screenshots:
+<div align="center">
+  <img src="./path/to/img1.jpg" alt="Image 1" width="45%">
+  <img src="./path/to/img2.jpg" alt="Image 2" width="45%">
+</div>
 
-![Screenshot 1](./src/assets/gitAssets/ss1.png)
-![Screenshot 2](./src/assets/gitAssets/ss2.png)
-![Screenshot 3](./src/assets/gitAssets/ss3.png)
-![Screenshot 4](./src/assets/gitAssets/ss4.png)
+<div align="center">
+  <img src="./path/to/img3.jpg" alt="Image 3" width="45%">
+  <img src="./path/to/img4.jpg" alt="Image 4" width="45%">
+</div>
 
 ## Demo Video
 
