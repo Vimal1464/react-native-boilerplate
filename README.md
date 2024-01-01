@@ -1,8 +1,22 @@
 # React Native Boilerplate
 
-![React Native Boilerplate](/assets/banner.png)
+![React Native Boilerplate](./src/assets/img/logo.png)
 
 Welcome to the React Native Boilerplate repository! This project serves as a solid foundation for your React Native applications, featuring a variety of pre-built, customizable components to streamline your development process.
+
+
+## Screenshots
+
+Explore the React Native Boilerplate through these screenshots:
+
+![Screenshot 1](./src/assets/gitAssets/ss1.png)
+![Screenshot 2](./src/assets/gitAssets/ss2.png)
+![Screenshot 3](./src/assets/gitAssets/ss3.png)
+![Screenshot 4](./src/assets/gitAssets/ss4.png)
+
+## Demo Video
+
+Watch a brief demo of the React Native Boilerplate [here](./src/assets/gitAssets/video.mov).
 
 ## Features
 
@@ -50,21 +64,6 @@ Before you begin, make sure you have the following:
     npx react-native run-ios
     ```
 
-## Screenshots
-
-Explore the React Native Boilerplate through these screenshots:
-
-![Screenshot 1](/screenshots/screenshot1.png)
-![Screenshot 2](/screenshots/screenshot2.png)
-
-## Demo Video
-
-Watch a brief demo of the React Native Boilerplate [here](/videos/demo.mp4).
-
 ## Contributing
 
 Contributions are welcome! Feel free to open issues and pull requests.
-
-## License
-
-This project is licensed under the [MIT License](/LICENSE).
