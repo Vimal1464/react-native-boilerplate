@@ -1,6 +1,6 @@
 # React Native Boilerplate
 
-![React Native Boilerplate](./src/assets/img/logo.png)
+ <img src="./src/assets/img/logo.png" alt="logo" width="45%">
 
 Welcome to the React Native Boilerplate repository! This project serves as a solid foundation for your React Native applications, featuring a variety of pre-built, customizable components to streamline your development process.
 
